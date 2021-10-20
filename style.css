@@ -35,25 +35,56 @@ main {
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
+
   position: relative;
 }
 
 .avatar span {
   position: absolute;
   top: -15px;
+  z-index: 1;
 }
 
 .avatar > img {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.58rem; /* 1.5 no projeto */
+  letter-spacing: 0.02em; /* espaço inserido entre letras (não está no projeto original) */
+  margin-top: 1.5rem;
 }
 
 a {
-  color: black;
+  color: var(--grey);
   text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.5rem; /* 0.75 no projeto */
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+  line-height: 1.8rem; /* espaço inserido antre linhas (não está no projeto original) */
+}
+
+ul {
+  margin-top: 4rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+
+  justify-content: center;
 }
