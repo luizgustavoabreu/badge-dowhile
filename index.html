@@ -8,6 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -26,7 +27,7 @@
           />
         </div>
 
-        <h1>Luiz Gustavo</h1>
+        <h1 id="userName">Luiz Gustavo</h1>
         <a href="https://github.com/luizgustavoabreu" target="_blank">
           <img src="images/github.svg" alt="ícone Github" />
           luizgustavoabreu</a
@@ -34,29 +35,51 @@
 
         <p>An instructor focused on helping people start programming for web</p>
 
-        <ul>
-          <li>
-            <a href="https://youtube.com" target="_blank">
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/maykbrito" target="_blank">
               <img src="images/youtube.svg" alt="ícone Youtube"
             /></a>
           </li>
-          <li>
-            <a href="https://facebook.com" target="_blank">
+          <li class="facebook">
+            <a href="https://facebook.com/maykbrito" target="_blank">
               <img src="images/facebook.svg" alt="ícone Facebook"
             /></a>
           </li>
-          <li>
-            <a href="https://instagram.com" target="_blank">
+          <li class="instagram">
+            <a href="https://instagram.com/maykbrito" target="_blank">
               <img src="images/instagram.svg" alt="ícone Instagram"
             /></a>
           </li>
-          <li>
-            <a href="https://twitter.com" target="_blank">
+          <li class="twitter">
+            <a href="https://twitter.com/maykbrito" target="_blank">
               <img src="images/twitter.svg" alt="ícone Twitter"
             /></a>
           </li>
         </ul>
       </div>
     </main>
+
+    <script>
+      const LinksSocialMedia = {
+        github: 'luizgustavoabreu',
+        youtube: '',
+        facebook: '',
+        instagram: 'luizgustavorj',
+        twitter: ''
+      }
+
+      function changeSocialMediaLinks() {
+        for (let li of socialLinks.children) {
+          const social = li.getAttribute('class')
+
+          li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
+
+          alert(li.children[0].href)
+        }
+      }
+
+      changeSocialMediaLinks()
+    </script>
   </body>
 </html>
