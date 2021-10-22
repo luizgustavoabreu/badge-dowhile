@@ -1,2 +1,2 @@
 # badge-dowhile
-Projeto Badge DoWhile sendo feito na NLW Heat da Rocketseat.
+Projeto Badge DoWhile (crachá virtual) criado na NLW Heat da Rocketseat.
