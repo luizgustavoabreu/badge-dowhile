@@ -78,7 +78,7 @@ p {
 }
 
 ul {
-  margin-top: 4rem;
+  margin-top: 3rem; /* era 4rem no original */
 
   list-style: none;
   padding: 0;
@@ -87,4 +87,21 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+/* Adicionado: */
+.footer {
+  margin-top: 3.5rem;
+  position: relative;
+}
+.footer span {
+  width: 15rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+}
+.footer > img {
+  height: 1.5rem;
+  margin-top: 0.7rem;
+  object-fit: cover;
 }
