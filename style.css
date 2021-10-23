@@ -82,6 +82,11 @@ a {
   align-items: center;
 }
 
+#userLink:hover {
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
 p {
   margin-top: 2rem;
   line-height: 1.8rem; /* espaço inserido antre linhas (não está no projeto original) */
@@ -98,6 +103,12 @@ ul {
 
   justify-content: center;
 }
+
+li:hover {
+  transform: scale(1.3);
+  transition: 0.8s;
+}
+
 /* Adicionado: */
 .footer {
   margin-top: 4.5rem;
