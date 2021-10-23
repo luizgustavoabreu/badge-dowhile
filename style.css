@@ -26,7 +26,7 @@ body {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 760px) {
   main {
     background: url(images/desktop.svg) no-repeat center/cover;
     width: 100vw;
@@ -90,7 +90,7 @@ p {
 }
 
 ul {
-  margin-top: 3rem; /* era 4rem no original */
+  margin-top: 4rem; /* 4rem no projeto */
 
   list-style: none;
   padding: 0;
@@ -102,7 +102,7 @@ ul {
 }
 /* Adicionado: */
 .footer {
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
   position: relative;
 }
 .footer span {
