@@ -1,9 +1,9 @@
 const LinksSocialMedia = {
   github: 'luizgustavoabreu',
-  youtube: '',
-  facebook: '',
+  youtube: 'channel/UCSfwM5u0Kce6Cce8_S72olg',
+  facebook: 'rocketseat',
   instagram: 'luizgustavorj',
-  twitter: ''
+  twitter: 'rocketseat'
 }
 
 function changeSocialMediaLinks() {
