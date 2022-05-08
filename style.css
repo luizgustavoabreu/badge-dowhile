@@ -122,7 +122,6 @@ li:hover {
   position: relative;
 }
 .footer span {
-  width: 15rem;
   height: 1.5rem;
   display: flex;
   justify-content: center;
@@ -136,6 +135,7 @@ li:hover {
 
 @media (min-width: 1024px) {
   .footer {
+    display: none;
     margin-top: 5.5rem;
   }
 }

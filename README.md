@@ -1,6 +1,7 @@
 # Badge DoWhile
 ### Projeto [Badge DoWhile](https://www.figma.com/community/file/1031698737363668691), feito na [NLW Heat](https://efficient-sloth-d85.notion.site/NLW-Heat-daaa092e1eeb42ff929151d2807c8231) (Next Level Week #7) da [:rocket:Rocketseat](https://www.rocketseat.com.br)
- 
+Consumindo dados da [API REST do GitHub](https://api.github.com)
+<br><br> 
 Deploy: https://luizgustavoabreu.github.io/badge-dowhile
 <br><br>
  
